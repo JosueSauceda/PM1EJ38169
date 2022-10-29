@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccionesActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/txtnombr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+     />
+
+    <EditText
+        android:id="@+id/txtape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/txted"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtcorr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/txtdir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Direccion"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btnact"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="140dp"
+        android:text="Actualizar"/>
+
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="140dp"
+        android:text="Eliminar" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
